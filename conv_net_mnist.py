@@ -6,7 +6,6 @@ from keras.datasets import mnist
 from keras.utils import np_utils
 from keras.optimizers import Adam
 from keras.models import Sequential
-from matplotlib import pyplot as plt
 from utilities.vis_utils import view_images
 from keras.layers import Dense, Activation, Flatten, Dropout
 from keras.layers import Convolution2D, MaxPooling2D
