@@ -15,23 +15,23 @@
 
 #### Image Processing
 
-- [] Generative Adversarial Network
-- [] Neural Style
-- [] Fast Neural Style
+- [ ] Generative Adversarial Network
+- [ ] Neural Style
+- [ ] Fast Neural Style
 
 #### Image Segmentation
 
-- [] U-Net
-- [] Deepmask, SharpMask and MultiPathNet
+- [ ] U-Net
+- [ ] Deepmask, SharpMask and MultiPathNet
 
 #### Natural Language Processing
 
-- [] RNN
-- [] LSTM
-- [] GRU
-- [] ByteNet
+- [ ] RNN
+- [ ] LSTM
+- [ ] GRU
+- [ ] ByteNet
 
 #### Sound
 
-- [] Wavenet
+- [ ] Wavenet
 
