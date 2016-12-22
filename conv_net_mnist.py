@@ -35,11 +35,11 @@ def load_mnist(view_grid=False):
 	num_training = X_train.shape[0]
 	num_test = X_test.shape[0]
 
-	# # sanity check on the dimensions
-	# print('Train Data Shape: {}'.format(X_train.shape))
-	# print('Train Labels Shape: {}'.format(y_train.shape))
-	# print('Test Data Shape: {}'.format(X_test.shape))
-	# print('Test Labels Shape: {}'.format(y_test.shape))
+	# sanity check on the dimensions
+	print('Train Data Shape: {}'.format(X_train.shape))
+	print('Train Labels Shape: {}'.format(y_train.shape))
+	print('Test Data Shape: {}'.format(X_test.shape))
+	print('Test Labels Shape: {}'.format(y_test.shape))
 
 	if view_grid:
 		# let's view a grid of the images
@@ -51,8 +51,8 @@ def load_mnist(view_grid=False):
 	X_train = X_train.reshape(X_train.shape[0], img_rows, img_cols, 1)
 	X_test = X_test.reshape(X_test.shape[0], img_rows, img_cols, 1)
 
-	# # recheck shape
-	# print('X_train shape: {}'.format(X_train.shape))
+	# recheck shape
+	print('X_train shape: {}'.format(X_train.shape))
 
 	# normalize to [0-1]
 	X_train /= 255
@@ -74,9 +74,9 @@ model = Sequential()
 
 # apply a 5x5 convolution with 32 output filters on a 28x28 grayscale image
 model.add(Convolution2D(32, 5, 5, init='he_normal', 
-								  border_mode='same',
-								  bias=True,
-								  input_shape=input_shape))
+				  border_mode='same',
+				  bias=True,
+				  input_shape=input_shape))
 # now output shape is (None, 32, 28, 28)
 
 # batch-norm layer
@@ -95,8 +95,8 @@ model.add(MaxPooling2D(pool_size=pool_size))
 
 # apply a 5x5 convolution with 64 output filters on 14x14x32
 model.add(Convolution2D(64, 5, 5, init='he_normal',
-								  border_mode='same',
-								  bias=True))
+				  border_mode='same',
+				  bias=True))
 
 # now output shape is (None, 64, 14, 14)
 
@@ -159,10 +159,10 @@ model.compile(loss='categorical_crossentropy',
 
 # train it
 model.fit(X_train, y_train, 
-				   batch_size=batch_size, 
-				   nb_epoch=num_epochs,
-				   verbose=1, 
-				   validation_data=(X_test, y_test))
+		   batch_size=batch_size, 
+		   nb_epoch=num_epochs,
+		   verbose=1, 
+		   validation_data=(X_test, y_test))
 
 # evaluate on test set
 score = model.evaluate(X_test, y_test, verbose=0)
@@ -171,4 +171,5 @@ score = model.evaluate(X_test, y_test, verbose=0)
 print('Test score:', score[0])
 print('Test accuracy:', score[1])
 
+# save the model
 model.save('mnist_convnet.h5')
