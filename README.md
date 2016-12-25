@@ -16,8 +16,15 @@
 #### Image Processing
 
 - [ ] Generative Adversarial Network
-- [ ] Neural Style
+- [X] Neural Styler
+	- [arXiv](https://arxiv.org/abs/1508.06576)
+	- Code coming soon - (pruning and fixing)
 - [ ] Fast Neural Style
+- [ ] Spatial Transformer Networks
+- [ ] Pixel Recurrent Neural Networks
+- [ ] Conditional PixelCNN Decoder
+- [ ] Video Pixel Networks
+- [ ] DRAW
 
 #### Image Segmentation
 
