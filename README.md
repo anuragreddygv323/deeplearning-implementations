@@ -15,11 +15,11 @@
 
 #### Image Processing
 
-- [ ] Generative Adversarial Network
 - [X] Neural Styler
 	- [arXiv](https://arxiv.org/abs/1508.06576)
 	- Code coming soon - (pruning and fixing)
 - [ ] Fast Neural Style
+- [ ] Generative Adversarial Network
 - [ ] Spatial Transformer Networks
 - [ ] Pixel Recurrent Neural Networks
 - [ ] Conditional PixelCNN Decoder
