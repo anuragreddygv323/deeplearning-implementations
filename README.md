@@ -16,8 +16,8 @@
 #### Image Processing
 
 - [X] Neural Styler
-	- [arXiv](https://arxiv.org/abs/1508.06576)
-	- Code coming soon - (pruning and fixing)
+	- [Implementation](https://github.com/kevinzakka/style_transfer)
+
 - [ ] Fast Neural Style
 - [ ] Generative Adversarial Network
 - [ ] Spatial Transformer Networks
