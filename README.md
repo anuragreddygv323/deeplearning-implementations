@@ -21,6 +21,7 @@
 - [ ] Fast Neural Style
 - [ ] Generative Adversarial Network
 - [ ] Spatial Transformer Networks
+	- *Almost done, pruning code*.
 - [ ] Pixel Recurrent Neural Networks
 - [ ] Conditional PixelCNN Decoder
 - [ ] Video Pixel Networks
