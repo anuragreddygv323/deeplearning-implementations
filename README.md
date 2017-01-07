@@ -1,4 +1,4 @@
-## Deep Learning Implementations Roadmap
+## Deep Learning Paper Implementations
 
 - [X] [Fully-Connected Neural Network](https://github.com/kevinzakka/keras_practice/blob/master/fully_connected_net.py)
 	- **Dataset**: MNIST
