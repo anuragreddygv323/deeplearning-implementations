@@ -12,7 +12,7 @@
 	- **Conv Layers**: 32 (5x5) filters with stride of 1 [layer 1], 64 (5x5) filters with stride of 1 [layer 2]. Zero-padded for both.
 	- **Pooling Layers**: 2x2 filters with a stride of 2.
 	- **Learning**: adam optimizer, 1e-4 learning rate, batch size of 128, 15 epochs.
-
+	
 #### Image Processing
 
 - [X] Neural Styler
@@ -42,4 +42,8 @@
 #### Sound
 
 - [ ] Wavenet
+
+#### Chemistry
+
+- [ ] Molecular Autoencoder
 
