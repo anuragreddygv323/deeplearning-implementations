@@ -15,10 +15,8 @@
 	
 - [X] [Neural Styler](https://github.com/kevinzakka/style_transfer)
 	- **Framework**: Keras
-- [ ] [Spatial Transformer Networks](https://github.com/kevinzakka/spatial_transformer_network)
+- [X] [Spatial Transformer Networks](https://github.com/kevinzakka/spatial_transformer_network)
 	- Summary
-	- [X] affine grid generator
-	- [ ] bilinear sampler is not working as intended
 	- **Framework**: Tensorflow
 
 ## Up Next
