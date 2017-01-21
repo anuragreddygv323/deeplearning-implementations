@@ -4,7 +4,6 @@
 	- **Dataset**: MNIST
 	- **Architecture**: 3 hidden layers, ReLU activations and Dropout.
 	- **Framework**: Keras
-	
 - [X] [Convolutional Neural Network](https://github.com/kevinzakka/keras_practice/blob/master/conv_net_mnist.py)
 	- **Dataset**: MNIST
 	- **Architecture**: (Conv - Batch - ReLU - MaxPool)*2 - (FC - Batch - ReLU - Dropout) - (FC - Softmax)
@@ -12,7 +11,6 @@
 	- **Pooling Layers**: 2x2 filters with a stride of 2.
 	- **Learning**: adam optimizer, 1e-4 learning rate, batch size of 128, 15 epochs.
 	- **Framework**: Keras
-	
 - [X] [Neural Styler](https://github.com/kevinzakka/style_transfer)
 	- **Framework**: Keras
 - [X] [Spatial Transformer Networks](https://github.com/kevinzakka/spatial_transformer_network)
